@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Xablausk</title>
+			<style>
+				*{
+					font-family: sans-serif;
+					margin-top: 10px;
+				}
+				input, #textf{
+					border: 3px #eee solid;
+					width: 30%;
+					padding: 10px;
+				}
+				input:focus{
+					border: 3px #aaa solid;
+				}
+				label{
+					display: block;
+				}
+				#textf label{
+					display: inline;
+					width: 30%;
+				}
+				button{
+					border: none;
+					background: black;
+					color: white;
+					padding: 20px;
+				}
+				#button:hover{
+					background: #ccc;
+					color: black;
+				}
+			
+			</style>
+	</head>
+	
+	<body>
+		<form action="http://hub.fatecrl.edu.br/sobrino/recebe.php" method="post" name="fomulario">
+			
+			<label for="email">Email</label>
+				<input type="email" name="email" id="email" maxlength="50" size="43" placeholder="email" required> </input>
+			<label for="senha">Senha</label>
+				<input type="password" name="senha" id="senha" placeholder="senha"> </input>
+					<fieldset id="textf">
+						<legend>Deseja Assinar nosso Boletim?</legend>
+						
+						<input type="radio" name="enviarEmail" value="sim" id="s" checked><label for="s">Sim</label></input>
+						
+						<input type="radio" name="enviarEmail" value="nao" id="n"><label for="n">Não</label></input>
+						
+					</fieldset>
+				<button id="button">Confirmar</button>
+	</form>
+	</body>
+
+</html>
