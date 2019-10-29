@@ -41,9 +41,7 @@ body	{
 
 	}
 
-	#menu li a:hover{
-		color: red;
-	}
+
 
 	main h1{
 		color: gold;
@@ -82,7 +80,7 @@ nav a:hover {
 }
 
 main {
-	background-color: white;
+	opacity: 0,00001;
 	flex: 63%;
 	margin-left: 10px;
 	margin-right: 10px;
