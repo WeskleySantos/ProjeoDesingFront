@@ -9,25 +9,37 @@
 
 </head>
 <body>
-
+	<div id="mySidenav" class="sidenav">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="#">About</a>
+		<a href="#">Services</a>
+		<a href="#">Clients</a>
+		<a href="#">Contact</a>
+	  </div>
 	<div id="foto"></div>
-<header>
+
+<div id="main">
+	<h2>ACESSE O MENU CLICANDO AQUI</h2>
+	<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; MENU</span>
+
+	<header>
 	
-		<img class="logo" src="imagens/joia.png" alt="Logo Jóia"  >
-
-		<ul id="menu">
-
-		<li> <a href="index.html">Home</a> </li>
-		<li> <a href="https://www.link2.com">Sobre o Mercado </a> </li>
-		<li> <a href="lojas.html">Lojas</a> </li>
-		<li> <a href="rede-litoral.html">Rede Litoral</a> </li>
-		<li> <a href="https://www.link5.com">Contatos</a> </li>
+			<!--<img class="logo" src="imagens/joia.png" alt="Logo Jóia"  >
+			-->
+			<ul id="menu">
+	
+			<li> <a href="index.html">Home</a> </li>
+			<li> <a href="https://www.link2.com">Sobre o Mercado </a> </li>
+			<li> <a href="lojas.html">Lojas</a> </li>
+			<li> <a href="rede-litoral.html">Rede Litoral</a> </li>
+			<li> <a href="https://www.link5.com">Contatos</a> </li>
+			
+			</ul>
 		
-		</ul>
+	</header>  
+<div id="teste">
 	
-</header>
-
-<nav id="princ">
+	<nav id="princ">
 	<ul>
 		<li> <a href="https://www.link1.com">Link 1</a> </li>
 		<li> <a href="https://www.link2.com">Link 2</a> </li>
@@ -89,8 +101,20 @@
 
 		<a href="https://www.saibamais3.com">Saiba mais</a>
 </aside>
-
+</div>
+</div>
 <footer> Footer </footer>
 
 </body>
 </html>
+<script>
+	function openNav() {
+	  document.getElementById("mySidenav").style.width = "250px";
+	  document.getElementById("main").style.marginLeft = "250px";
+	}
+	
+	function closeNav() {
+	  document.getElementById("mySidenav").style.width = "0";
+	  document.getElementById("main").style.marginLeft= "0";
+	}
+	</script>

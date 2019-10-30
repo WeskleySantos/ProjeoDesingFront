@@ -66,10 +66,7 @@ nav#princ ul li{
 	padding: 0;
 	}
 	
-nav	{
-	background-color: skyblue;
-	flex: 12%;
-}
+
 
 a {
 	color: white;
@@ -81,9 +78,17 @@ nav a:hover {
 
 main {
 	opacity: 0,00001;
-	flex: 63%;
+	flex: 4;
 	margin-left: 10px;
 	margin-right: 10px;
+}
+nav	{
+	background-color: skyblue;
+	flex: 1;
+}
+aside {
+	background-color: red;
+	flex: 1;
 }
 
 p{
@@ -103,7 +108,7 @@ p{
 	width: 400px;	
 	height: 300px;	
 	border: solid 1px black; 
-	margin-left: 200px;"
+	margin-left: 200px;
 }
 
 .local{
@@ -120,10 +125,7 @@ p{
 	color: black;
 }
 
-aside {
-	background-color: red;
-	flex: 12%;
-}
+
 
 header, footer, main, aside, nav {
 	padding: 10px;
