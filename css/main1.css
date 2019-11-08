@@ -27,9 +27,13 @@ header{
 	/*background-color: #4682B4;*/
 }
 
+header {
+	height: 170px;
+}
+
 header .logo{
-	width: 250px;
-	height: 250px;
+	width: 254px;
+	height: 135px;
 	float: left;
 }
 
