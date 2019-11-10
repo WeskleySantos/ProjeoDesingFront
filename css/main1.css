@@ -28,12 +28,12 @@ header{
 }
 
 header {
-	height: 170px;
+	height: 100px;
 }
 
 header .logo{
 	width: 254px;
-	height: 135px;
+	height: 90px;
 	float: left;
 }
 
@@ -105,9 +105,9 @@ main h1{
 
 	
 nav ul li{
-	margin-left: -30%;
+	margin-left: -28.5%;
 	text-align: center;
-	width: 137.5%;
+	width: 135.5%;
 	text-decoration: none;
 	background-color: #C21228;
 	list-style-type: none;
@@ -122,6 +122,9 @@ nav a{
 	margin-left: 5px;
 }
 
+nav ul li a:hover{
+	color:#C21228;
+}
 nav a strong:hover{
 	color:#C21228; 
 }
@@ -141,8 +144,14 @@ nav li:hover {
 	background-color: #FFFFFF;
 }
 
-nav li a:hover{
+nav ul li a:hover{
 	color: #C21228;
+}
+
+.caminhao{
+	width: 170px;
+	margin-top: 550px;
+	margin-left: -2%;
 }
 
 
@@ -214,7 +223,15 @@ fieldset{
 }
 
 footer{
-	background-color: #17307D;
+	background-color: snow;
+	display: inline; /*#17307D*/
+	height: 150px;
+}
+
+.logofooter{
+	width: 130px;
+	height: 100px;
+	margin-top: -80%;
 }
 
 
