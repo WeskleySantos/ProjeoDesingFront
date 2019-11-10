@@ -109,19 +109,21 @@ nav ul li{
 	text-align: center;
 	width: 137.5%;
 	text-decoration: none;
-	background-color: #17307D;
+	background-color: #C21228;
 	list-style-type: none;
-	word-spacing: 55px;
+	word-spacing: 2px;
 }
+
+/* #17307D */
 	
 nav a{
-	color: #000000;
+	color: white;
 	text-decoration: none;
-	margin-left: 50px;
+	margin-left: 5px;
 }
 
 nav a strong:hover{
-	color:skyblue; 
+	color:#C21228; 
 }
 
 nav, aside{
@@ -140,7 +142,7 @@ nav li:hover {
 }
 
 nav li a:hover{
-	color: #17307D;
+	color: #C21228;
 }
 
 
