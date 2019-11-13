@@ -85,7 +85,7 @@ header, footer {
 
 
 main h1{
-	color: #C21228;
+	color: #17307D;
 	text-align: center;
 }
 
@@ -233,20 +233,28 @@ footer{
 	width: 300px;
 	height: 300px;
 	margin-left: 450px;
-	margin-top: -8%;
-	border: solid 1px black;
+	margin-top: -5%;
+	border: dashed 1px #000;
+	border-radius: 5%;
 }
 .ps{
 	margin-left: 3%;
 	margin-right: 3%;
+}
+.subtitulo{
+	color: #C21228;
+	margin-left: 25px;
+
 }
 .ps1{
 	margin-top: 10%;
 	margin-left: 3%;
 	margin-bottom: 10%;
 }
-.mod{
+.mod1{
 	margin-top: 15%;
+	color: #17307D;
+	text-align: center;
 }
 .ing1{
 	margin-top: -35%;
@@ -254,8 +262,8 @@ footer{
 	margin-right: 3%;
 }
 
-.mod1{
-	text-align: center;
+.mod2{
+	margin-left: 25px;
 }
 
 #dst1, #dst2{
