@@ -1,10 +1,11 @@
 
 @media screen and (min-width: 300px) and (max-width: 700px){
 	body{
-	display: block;
+		background-color: red;
+		display: block;
 			
 	}
-	body *, main{
+	body *{
 		margin: 0 auto;
 		width: 80%;
 	}
