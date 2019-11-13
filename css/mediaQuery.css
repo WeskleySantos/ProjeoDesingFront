@@ -1,0 +1,20 @@
+
+@media screen and (min-width: 300px) and (max-width: 700px){
+	body{
+		background-color: red;
+		display: block;
+			
+	}
+	body *{
+		margin: 0 auto;
+		width: 80%;
+	}
+	aside, main, nav {
+		margin: 1% auto;
+    }
+    nav {
+        display: none;
+    }
+
+
+}
