@@ -104,30 +104,24 @@ main h1{
 
 
 	
-nav ul li{
+nav ul a li{
 	margin-left: -28.5%;
 	text-align: center;
 	width: 135.5%;
-	text-decoration: none;
 	background-color: #C21228;
 	list-style-type: none;
 	word-spacing: 2px;
 }
 
-/* #17307D */
-	
 nav a{
-	color: white;
 	text-decoration: none;
-	margin-left: 5px;
 }
 
-nav ul li a:hover{
-	color:#C21228;
-}
-nav a strong:hover{
-	color:#C21228; 
-}
+
+/* #17307D */
+	
+
+
 
 nav, aside{
 	background-color: #C21228;
@@ -140,13 +134,12 @@ nav ul  {
 	color: gray;
 }
 
-nav li:hover {
+nav  li a:hover , nav li:hover{
 	background-color: #FFFFFF;
-}
-
-nav ul li a:hover{
 	color: #C21228;
 }
+
+
 
 .caminhao{
 	width: 170px;
