@@ -32,9 +32,10 @@ header {
 }
 
 header .logo{
-	width: 254px;
-	height: 90px;
+	width: 193px;
+	height: 410x;
 	float: left;
+	margin-bottom: 140px;
 }
 
 header, footer, aside, nav{
@@ -222,9 +223,9 @@ footer{
 }
 
 .logofooter{
-	width: 130px;
+	width: 210px;
 	height: 100px;
-	margin-top: -80%;
+	margin-top: -80px;
 }
 
 
