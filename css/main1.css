@@ -90,6 +90,11 @@ main h1{
 	text-align: center;
 }
 
+.itens{
+	margin-left: 15px;
+	margin-bottom: 20px;
+}
+
 .it{
 	display: inline;
 }
@@ -146,6 +151,7 @@ nav  li a:hover , nav li:hover{
 	width: 170px;
 	margin-top: 50px;
 	margin-left: 0%;
+	
 }
 
 
