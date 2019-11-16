@@ -228,14 +228,14 @@ fieldset{
 footer{
 	background-color: snow;
 	display: inline; /*#17307D*/
-	height: 150px;
+	height: 100px;
 }
 
 .logofooter{
 	width: 193px;
 	height: 410x;
 	float: left;
-	margin-top: -8%;
+	margin-top: -11%;
 }
 
 
@@ -305,4 +305,10 @@ footer{
 
 .active {
 	color: #C21228;
+}
+
+h4 { 
+	margin-left: 50px;
+	margin-top: 30px;
+
 }
