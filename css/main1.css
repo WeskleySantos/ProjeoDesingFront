@@ -91,7 +91,7 @@ main h1{
 }
 
 .itens{
-	margin-left: 15px;
+	margin-left: 60px;
 	margin-bottom: 20px;
 }
 
@@ -102,8 +102,8 @@ main h1{
 .of1,.of2,.of3,.of4,.of5,.of6,.of7,.of8,.of9,.of10,.of11,.of12{
 	margin-left: 18px;
 	margin-top: 20px;
-	width: 228px;
-	height: 228px;
+	width: 200px;
+	height: 200px;
 	border-radius: 5px;
 	border: dashed 1px grey;
 }
