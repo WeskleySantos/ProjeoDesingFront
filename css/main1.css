@@ -7,16 +7,18 @@ body{
 	color: black;
 	max-width: 1240px;
 	width: 100%;
-	display: flex;
-	flex-wrap: wrap;
+
 	box-sizing: border-box;
 	background-color: #DCDCDC;
 }
 
 .container {
 	width: 100%;
-	max-width: 100%;
-	
+	height: 100%;
+	display: flex;
+
+	display: flex;
+	flex-wrap: wrap;
 }
 
 header{
@@ -42,7 +44,7 @@ header .logo{
 	margin-bottom: 140px;
 }
 
-header, footer, aside, nav{
+header, footer, aside, nav, main{
 	padding: 10px;
 	margin: 10px;
 	border-radius: 5px;
