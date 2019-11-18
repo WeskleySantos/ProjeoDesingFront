@@ -33,7 +33,7 @@ header {
 
 header .logo{
 	width: 193px;
-	height: 410x;
+
 	float: left;
 	margin-bottom: 140px;
 }
@@ -181,7 +181,7 @@ p{
 	border: solid 1px black;
 }
 
-#txt-rede{
+.txt-rede{
 	text-align: left;
 	margin-left: 25px;
 	margin-right: 25px;
@@ -230,7 +230,6 @@ footer{
 
 .logofooter{
 	width: 193px;
-	height: 410x;
 	float: left;
 	margin-top: -11%;
 }
@@ -285,7 +284,7 @@ footer{
 }
 
 .dsk1{
-	font-style: bold;
+
 	text-align: center;
 	margin-left: -5px;
 	margin-top: 70px;
