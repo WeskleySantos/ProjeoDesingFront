@@ -37,8 +37,9 @@ h3{
 }
 
 #slider li { 
-   width: 680px; 
-   height: 320px; 
+   width: 85%; 
+   height: 30%; 
+   max-width: 100%;
    position: absolute;
    left: -10px;
    list-style: none;

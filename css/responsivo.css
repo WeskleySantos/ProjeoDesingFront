@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@media (max-width: 500px){
+@media screen and (max-width: 1000px){
     header, #princ{
         overflow: hidden;
     }
@@ -18,7 +18,7 @@
         font-family: "Lora", serif;
     }
     .menu {
-        margin: 6% 23%;
+        margin: 3% 3%; 
         background: #FFF;
         border-radius: 50%;
         box-shadow: 0 0 0 0 #FFF, 0 0 0 0 #FFF;
@@ -108,4 +108,13 @@
         text-align: center;
         width: 80%;
     }
+}
+    @media (max-width: 1180px){
+        aside {
+            display: none;
+        }
+        @media (max-width: 965px){
+            #princ {
+                display: none;
+            }
 }
