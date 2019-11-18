@@ -33,7 +33,7 @@ header {
 
 header .logo{
 	width: 193px;
-	height: 410x;
+
 	float: left;
 	margin-bottom: 140px;
 }
@@ -111,27 +111,7 @@ main h1{
 	border: dashed 1px grey;
 }
 
-
-	
-nav ul a li{
-	margin-left: -28.5%;
-	text-align: center;
-	width: 135.5%;
-	background-color: #C21228;
-	list-style-type: none;
-	word-spacing: 2px;
-}
-
-nav a{
-	text-decoration: none;
-}
-
-
 /* #17307D */
-	
-
-
-
 nav, aside{
 	background-color: #C21228;
 	flex: 12%;
@@ -139,13 +119,27 @@ nav, aside{
 }
 
 nav ul  {
-	margin-left: -5%;
-	color: gray;
+	margin: -9px;
+	padding: 0;
+	width: 190px;	
+	text-align: center;
+		
 }
 
-nav  li a:hover , nav li:hover{
-	background-color: #FFFFFF;
-	color: #C21228;
+nav li{
+	list-style-type: none;
+}
+
+nav ul li a{
+	list-style-type: none;	
+	display: block;
+	text-decoration: none;
+	background-color: #C21228;
+	padding: 1px;
+}
+
+nav ul  li a:hover {
+	background-color: #ff4040;	
 }
 
 
@@ -187,7 +181,7 @@ p{
 	border: solid 1px black;
 }
 
-#txt-rede{
+.txt-rede{
 	text-align: left;
 	margin-left: 25px;
 	margin-right: 25px;
@@ -236,7 +230,6 @@ footer{
 
 .logofooter{
 	width: 193px;
-	height: 410x;
 	float: left;
 	margin-top: -11%;
 }
@@ -291,7 +284,7 @@ footer{
 }
 
 .dsk1{
-	font-style: bold;
+
 	text-align: center;
 	margin-left: -5px;
 	margin-top: 70px;
