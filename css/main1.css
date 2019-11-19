@@ -31,7 +31,6 @@ main {
 	text-align: center;
 	background-color: white;
 	flex: 5;
-	height: 100%;
 
 }
 nav, aside{
@@ -44,9 +43,7 @@ aside{
 	flex-direction: column;
 	text-align: center;
 	align-items: center;
-
 }
-
 
 header{
 	background-image: url(../imagens/fundopb.jpg) ;
@@ -328,11 +325,4 @@ footer{
 h4 { 
 	margin-left: 50px;
 	margin-top: 30px;
-
-<<<<<<< HEAD
-}
-
-
-=======
->>>>>>> parent of 82242cc... zom
 }
