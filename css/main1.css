@@ -136,9 +136,9 @@ main h1{
 
 
 .of1,.of2,.of3,.of4,.of5,.of6,.of7,.of8,.of9,.of10,.of11,.of12{
+	display: inline;
+	width: 25%;
 	margin: 4%;
-	width: 200px;
-	height: 200px;
 	border-radius: 5px;
 	border: dashed 1px grey;
 }
@@ -245,7 +245,7 @@ p{
 
 fieldset{
 	width: 70%;
-	margin: 0 auto;
+	margin: 20px auto;
 	border: dashed 1px black;
 }
 
