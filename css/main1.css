@@ -99,9 +99,16 @@ header {
 }
 
 header .logo{
+<<<<<<< HEAD
 	width: 15%;
 	max-width: 100%;
 	float: left;
+=======
+	width: 193px;
+
+	float: left;
+	margin-bottom: 140px;
+>>>>>>> parent of 33cc53f... Update main1.css
 }
 
 <<<<<<< HEAD
