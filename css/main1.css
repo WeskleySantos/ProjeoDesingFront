@@ -10,11 +10,10 @@ body{
 	width: 100%;
 	height: 100%;
 }
-.itenms{
+.itens{
+	width: 100%;
 	display: flex;
-	justify-content: center;
-	text-align: center;
-	justify-items: center;
+
 }
 .container {
 	width: 100%;
@@ -24,6 +23,9 @@ body{
 	align-content: center;
 }
 main {
+	display: block;
+	justify-content: center;
+	text-align: center;
 	background-color: white;
 	flex: 5;
 }
@@ -127,7 +129,7 @@ main h1{
 
 
 .it{
-	display: inline;
+
 }
 
 .of1,.of2,.of3,.of4,.of5,.of6,.of7,.of8,.of9,.of10,.of11,.of12{
@@ -185,8 +187,7 @@ a{
 	text-align: center;
 }
 nav#princ{
-	display: flex;
-	
+	flex: 1;
 	text-align: center;
 	flex-direction: column;
 	
