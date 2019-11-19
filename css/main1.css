@@ -12,11 +12,8 @@ body{
 }
 .itens{
 	width: 100%;
-	display: block;
+	display: flex;
 
-}
-.it{
-	display: inline;
 }
 .container {
 	width: 100%;
@@ -131,7 +128,9 @@ main h1{
 }
 
 
+.it{
 
+}
 
 .of1,.of2,.of3,.of4,.of5,.of6,.of7,.of8,.of9,.of10,.of11,.of12{
 	margin: 4%;
