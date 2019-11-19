@@ -5,6 +5,13 @@ body{
 	font-size: 18px;
 	margin: 0 auto;
 	color: black;
+<<<<<<< HEAD
+=======
+	max-width: 1240px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+>>>>>>> parent of ee0e47e... aruumado o bug do main
 	box-sizing: border-box;
 	background-color: #DCDCDC;
 	width: 100%;
@@ -21,6 +28,7 @@ body{
 <<<<<<< HEAD
 .container {
 	width: 100%;
+<<<<<<< HEAD
 	height: 100%;
 	display: flex;
 	flex-wrap: wrap;
@@ -44,6 +52,10 @@ aside{
 	flex-direction: column;
 	text-align: center;
 	align-items: center;
+=======
+	max-width: 100%;
+	
+>>>>>>> parent of ee0e47e... aruumado o bug do main
 }
 =======
 
@@ -83,8 +95,14 @@ header .logo{
 	float: left;
 }
 
+<<<<<<< HEAD
 header, footer, aside, nav, main{
 	margin: 0.5%;
+=======
+header, footer, aside, nav{
+	padding: 10px;
+	margin: 10px;
+>>>>>>> parent of ee0e47e... aruumado o bug do main
 	border-radius: 5px;
 }
 
