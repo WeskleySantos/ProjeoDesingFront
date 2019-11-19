@@ -10,10 +10,13 @@ body{
 	width: 100%;
 	height: 100%;
 }
-.itens{
-	width: 100%;
-	display: flex;
-
+.itens {
+    width: 100%;
+   display: block;
+}
+.it{
+	display: inline;
+	height: 15%;
 }
 .container {
 	width: 100%;
@@ -28,6 +31,13 @@ main {
 	text-align: center;
 	background-color: white;
 	flex: 5;
+	height: 100%;
+
+}
+nav, aside{
+	background-color: #C21228;
+	flex: 1;
+	color: white;
 }
 aside{
 	display: flex;
@@ -36,11 +46,7 @@ aside{
 	align-items: center;
 
 }
-nav, aside{
-	background-color: #C21228;
-	flex: 1;
-	color: white;
-}
+
 
 header{
 	background-image: url(../imagens/fundopb.jpg) ;
@@ -128,16 +134,12 @@ main h1{
 }
 
 
-.it{
-
-}
-
-.of1,.of2,.of3,.of4,.of5,.of6,.of7,.of8,.of9,.of10,.of11,.of12{
-	display: inline;
-	width: 100%;
-	margin: 4%;
-	border-radius: 5px;
-	border: dashed 1px grey;
+.of1, .of2, .of3, .of4, .of5, .of6, .of7, .of8, .of9, .of10, .of11, .of12 {
+    display: inline;
+    width: 15%;
+    margin: 4%;
+    border-radius: 5px;
+    border: dashed 1px grey;
 }
 
 /* #17307D */
