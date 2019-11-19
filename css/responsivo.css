@@ -1,7 +1,10 @@
 @charset "utf-8";
 
 @media screen and (max-width: 1000px){
-    header, #princ{
+    #princ{
+        display: none;
+    }
+    header{
         overflow: hidden;
     }
     .logofooter{
