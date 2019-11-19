@@ -134,7 +134,7 @@ main h1{
 
 .of1,.of2,.of3,.of4,.of5,.of6,.of7,.of8,.of9,.of10,.of11,.of12{
 	display: inline;
-	width: 25%;
+	width: 100%;
 	margin: 4%;
 	border-radius: 5px;
 	border: dashed 1px grey;
@@ -327,7 +327,10 @@ h4 {
 	margin-left: 50px;
 	margin-top: 30px;
 
+<<<<<<< HEAD
 }
 
 
+=======
+>>>>>>> parent of 82242cc... zom
 }
