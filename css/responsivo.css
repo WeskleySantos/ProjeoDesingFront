@@ -4,6 +4,7 @@
     header, #princ{
         overflow: hidden;
     }
+    
     .some{
         display: block;
     }
@@ -81,7 +82,7 @@
         opacity: 1;
         visibility: visible;
     }
-    ul {
+    .listazada {
         position: absolute;
         top: 50%;
         left: 50%;
@@ -93,11 +94,14 @@
         visibility: hidden;
         z-index: 2;
     }
-    a {
+    .linkis {
         color: #00cec9;
         display: block;
         margin-bottom: 1em;
         text-decoration: none;
+    }
+    .sumiu{
+        visibility: hidden;
     }
     h1 {
         display: flex;

@@ -17,17 +17,17 @@ h3{
    background: #000;
    border: 5px solid #eaeaea;
    box-shadow: 1px 1px 5px rgba(0,0,0,0.7);
-   height: 320px;
-   width: 680px;
    margin: 40px auto 0;
    overflow: visible;
    position: relative;
-
+   height: 300px;
+   width: 85%;
 	}
 
 #mascara {
    overflow: hidden;
-   height: 320px; 
+   height: 100%;
+   max-width: 100%;
 }
 
 #slider ul {
