@@ -155,6 +155,22 @@
             #princ {
                 display: none;
             }
+            div#mascara {
+                display: block;
+                justify-items: center;
+                justify-content: center;
+            }
+            div#mascara a{
+                display: flex;
+                justify-items: center;
+                justify-content: center;
+            }
+            div#mascara img{
+                margin: 0%;
+                padding: 0%;
+                width: 100%;
+                height: 100%;
+            }
         }
             @media (max-width: 990px){
                 #princ, .caixa{
